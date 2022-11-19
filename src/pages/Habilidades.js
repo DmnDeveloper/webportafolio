@@ -9,7 +9,7 @@ import { IoLogoJavascript } from 'react-icons/io'
 import { DiSass, DiResponsive, DiNodejsSmall } from 'react-icons/di'
 import { SiSemanticuireact, SiReactrouter, SiStyledcomponents } from 'react-icons/si'
 import { Md3DRotation } from 'react-icons/md'
-import Icon from './Icon'
+import Icon from '../components/Icon'
 import "../styles/pages/Habilidades.scss";
 
 const Habilidades = () => {
