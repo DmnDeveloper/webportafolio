@@ -1,0 +1,12 @@
+@import '../sass/variables.scss';
+.contact{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 550px;
+  width: 85%;
+  margin: 0 auto;
+  .form-container{
+    width: 600px;
+  }
+}

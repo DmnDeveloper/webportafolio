@@ -1,0 +1,20 @@
+@import '../sass/variables.scss';
+
+.habilidades{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 550px;
+  width: 85%;
+  margin: 0 auto;
+  .icons-container{
+    display: grid;
+    grid-template-columns:  230px 230px;
+    font-family: $roboto;
+    justify-content: space-around;
+    align-items: center;
+    // width: 600px;
+    min-width: 600px;
+    height: 480px;
+  }
+}

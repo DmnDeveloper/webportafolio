@@ -1,0 +1,41 @@
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 1024px) {
+    
+}
+@media (max-width: 768px) {
+    .home{
+      flex-direction: column-reverse;
+      .foto{
+        margin-top: 15px;
+      }
+    }
+    .habilidades{
+      flex-direction: column;
+    }
+    .portafolio{
+      flex-direction: column;
+    }
+    .contact{
+      flex-direction: column-reverse;
+    }
+}
+@media (max-width: 645px) {
+    // .header{
+    //   flex-direction: column;
+    // }
+    .social-icon{
+      display: none;
+    }
+}
+@media (max-width: 548px) {
+  .habilidades{
+    .icons-container{
+      grid-template-columns: 250px;
+    }
+  }
+}
+@media (max-width: 320px) {
+    
+}

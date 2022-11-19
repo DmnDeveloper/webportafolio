@@ -1,0 +1,16 @@
+@import '../sass/variables.scss';
+
+.home{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 550px;
+  width: 85%;
+  margin: 0 auto;
+}
+.foto{
+  width: 300px;
+  img{
+    border-radius: 80px;
+  }
+}

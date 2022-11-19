@@ -1,0 +1,11 @@
+@import '../sass/variables.scss';
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+label .error.field{
+  color: $red;
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+@import '../sass/variables.scss';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.link.active {
+  color: $red;
+  font-weight: bold;
+  border-bottom: 2px solid $red;
+}
